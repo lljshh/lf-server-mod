@@ -11,6 +11,7 @@ public class MainClass implements ModInitializer {
     @Override
     public void onInitialize() {
         LOGGER.info("LF-Server-Mod is loaded");
-
+        CommandManager commandManager = new CommandManager();
+        CommandManager.register();
     }
 }

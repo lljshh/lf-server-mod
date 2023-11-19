@@ -5,7 +5,7 @@
 	"mixins": [
 	],
 	"server": [
-
+		"ReWriteBan"
 	],
 	"injectors": {
 		"defaultRequire": 1
